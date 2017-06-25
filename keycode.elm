@@ -1,12 +1,11 @@
 module Main exposing (..)
 
 import Html exposing (..)
-import Html.App as Html
 import Html.Attributes exposing (..)
 import Keyboard exposing (KeyCode, downs)
 
 
-main : Program Never
+main : Program Never Model Msg
 main =
     Html.program
         { init = init
